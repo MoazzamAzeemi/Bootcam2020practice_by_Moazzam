@@ -31,5 +31,5 @@ jobs:
       
       # Deploy our application on surge
       - name: Run surge
-        run: surge ./ eagleone.surge.sh --token ${{secret.PROJECT001_SURGE_TOKEN}}
+        run: surge ./ eagleone.surge.sh --token ${{secrets.PROJECT001_SURGE_TOKEN}}
         
